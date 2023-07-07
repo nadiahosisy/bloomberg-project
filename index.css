@@ -408,6 +408,9 @@ body {
 .black-bottom-right-middle:hover:after {
   opacity: 0.7;
 }
+.black-bottom-right-middle:hover {
+  opacity: 0.7;
+}
 .navi-bar-button-search .nav-bar-search-icon {
   -webkit-mask: url(https://assets.bwbx.io/s3/navi/images/search_white-25886d2f4b.svg)
     no-repeat center;
@@ -432,20 +435,32 @@ body {
 }
 
 /* ------------------------------------------------------------------------ */
-
+.nav-bar-body-ul-left::before {
+  content: "";
+  margin-right: 1px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: var(--navi-menu-secondary-color, #000);
+  margin: 5px;
+  margin-bottom: 6px;
+}
 .main-body-div {
-  display: block;
-  box-sizing: border-box;
+  display: flex;
   flex-direction: column;
-  width: 50vw;
   align-items: center;
   align-content: center;
+  max-width: 1300px;
+  margin: 0 20px;
   border-bottom: outset;
   border: 1px solid #999;
   border: 1px solid var(--navi-boundary-color, #999);
   border-top: 0;
-  margin-left: 25%;
-  margin-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -497,7 +512,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: BWHaasGroteskWeb, BWHaasGrotesk-55Roman-Web, sans-serif;
-  padding: 8px;
+  padding: 0px;
   align-items: center;
 }
 
@@ -531,4 +546,18 @@ body {
   line-height: 11.5px;
   font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
   padding: 0.625rem 0.875rem;
+}
+.stock-prices-down-value {
+  color: red;
+  font-size: 14px;
+}
+.stock-prices-up-value {
+  color: green;
+  font-size: 14px;
+}
+.stock-prices-prics {
+  font-size: 14px;
+}
+.stock-prices:hover {
+  opacity: 0.7;
 }
