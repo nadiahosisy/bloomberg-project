@@ -466,6 +466,7 @@ body {
 }
 
 .nav-bar-body {
+  cursor: pointer;
   width: 100%;
 }
 
@@ -489,6 +490,11 @@ body {
   padding: 8px;
 }
 
+.nav-bar-body-ul li:hover {
+  font-weight: 800;
+  color: #000;
+}
+
 /* ------------------------------------------------------------------------ */
 
 .stock-prices * {
@@ -503,8 +509,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: BWHaasGroteskWeb, BWHaasGrotesk-55Roman-Web, sans-serif;
+  border: 1px solid #999;
+  border: 1px solid var(--navi-boundary-color, #999);
+  border-top: 0;
 }
 .stock-prices div {
+  cursor: pointer;
+
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -558,6 +569,8 @@ body {
 .stock-prices-prics {
   font-size: 14px;
 }
-.stock-prices:hover {
+.stock-prices div:hover {
   opacity: 0.7;
 }
+
+/* ------------------------------------------------------------------------ */
