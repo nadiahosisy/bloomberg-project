@@ -1,0 +1,453 @@
+* {
+  font-family: AvenirNextPForBBG, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+@font-face {
+  font-family: AvenirNextPForBBG;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/AvenirNextPForBBG-Regular-eb3bb1b816.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/AvenirNextPForBBG-Regular-093448f517.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: AvenirNextPForBBG;
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/AvenirNextPForBBG-Demi-b9b4abf0ea.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/AvenirNextPForBBG-Demi-7459932d1d.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Bloomberg Logotypes";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/Bloomberg%20Logotypes-Medium-0e53877b78.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/Bloomberg%20Logotypes-Medium-4f4134c199.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: BWHaasGroteskWeb;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-55Roman-Web-7998fbcba8.eot");
+  src: local("?"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-55Roman-Web-5cf5733cd9.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-55Roman-Web-a1ea4fd367.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: BWHaasGroteskWeb;
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-65Medium-Web-d9a88b8a91.eot");
+  src: local("?"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-65Medium-Web-8f5de0c368.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-65Medium-Web-e205ada7dd.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: BWHaasGroteskWeb;
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-75Bold-Web-de8c77cce2.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-75Bold-Web-506363704e.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: BWHaasGroteskWeb;
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-95Black-Web-3629d1569b.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-95Black-Web-37847ad026.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: BWHaasGroteskWeb;
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-56Italic-Web-39c99fc394.eot");
+  src: local("?"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-56Italic-Web-669253244d.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-56Italic-Web-296d0c8182.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: BWHaasGroteskWeb;
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-66MediumItalic-Web-d725f5ecec.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-66MediumItalic-Web-503f6e56b6.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: BWHaasGroteskWeb;
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-76BoldItalic-Web-1276e0d1bc.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-76BoldItalic-Web-1032f4ce3a.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: BWHaasGroteskWeb;
+  font-display: swap;
+  font-weight: 900;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-96BlackItalic-Web-47835b8d5d.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-96BlackItalic-Web-1a0b95417e.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoText;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-Roman-Web-bfa063ee27.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-Roman-Web-e953eb7239.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoText;
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-Semibold-Web-c48189a45a.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-Semibold-Web-595b04b2da.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoText;
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-Bold-Web-3c5266a48e.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-Bold-Web-8851dd6a6e.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoText;
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-Italic-Web-b04a2274cf.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-Italic-Web-ba4fbc1a59.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoText;
+  font-display: swap;
+  font-weight: 600;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-SemiboldItalic-Web-0254961da8.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-SemiboldItalic-Web-57bd60b6fc.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoText;
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-BoldItalic-Web-87dd52eb78.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoText-BoldItalic-Web-aacadef6f2.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoTextMono;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-Roman-Web-030ce79c82.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-Roman-Web-39b4bff080.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoTextMono;
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-Semibold-Web-e5c1aee9ee.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-Semibold-Web-9b564f9a2b.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoTextMono;
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-Bold-Web-2ab325264d.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-Bold-Web-5f46c59280.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoTextMono;
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-Italic-Web-de42f6a4f1.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-Italic-Web-7d197ea7c1.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoTextMono;
+  font-display: swap;
+  font-weight: 600;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-SemiboldItalic-Web-a048987ac3.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-SemiboldItalic-Web-b32d56767f.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: PublicoTextMono;
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-BoldItalic-Web-cabdcc9a36.woff2")
+      format("woff2"),
+    url("https://assets.bwbx.io/s3/fontservice/fonts/PublicoTextMono-BoldItalic-Web-c92f0de918.woff")
+      format("woff");
+}
+
+body {
+  margin: 0;
+}
+.black-header {
+  background: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-black-header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.top-black-header a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+  font-family: AvenirNextPForBBG, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: bold;
+  border-left: 1px solid #b3b3b3;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 1;
+}
+
+.nav-div {
+  border-bottom: 0;
+  background: #1c1c1c;
+  font-family: AvenirNextPForBBG, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+}
+.anchor1 {
+  border-left: none !important;
+  padding-right: 5px;
+}
+
+.anchor1::before {
+  content: "";
+}
+
+.anchor1::after {
+  display: inline-block;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15'%3E%3Cpath d='M0,2.5l7.5,10l7.5-10H0z' fill='%23fff'/%3E%3C/svg%3E");
+  opacity: 0.7;
+  height: 9px;
+  width: 9px;
+  font-size: 9px;
+  left: 6px;
+  top: 1px;
+  position: relative;
+}
+.anchor1:hover:after {
+  opacity: 1;
+}
+.anchor3 {
+  color: #ffa028 !important;
+}
+
+.anchor3::before {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  line-height: initial;
+  right: 3px;
+  top: 2px;
+  position: relative;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 25.32 19'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff%3Bstroke:%23fff%3Bstroke-miterlimit:10%3Bstroke-width:.5px%7D%3C/style%3E%3C/defs%3E%3Cpath d='M0 0h25.32v19H0z'/%3E%3Crect class='cls-1' x='.32' y='1.81' width='11.74' height='9.39' rx='.47' ry='.47'/%3E%3Crect class='cls-1' x='13.23' y='1.8' width='11.74' height='9.39' rx='.47' ry='.47'/%3E%3Cpath class='cls-1' d='M11.4 13.75v.8c0 .29.53.53 1.18.53s1.17-.24 1.17-.53v-.8h.06c1.83.2 3.11.87 3.11 1.68 0 1-1.93 1.76-4.31 1.76s-4.32-.79-4.32-1.76c0-.8 1.3-1.47 3.09-1.69z'/%3E%3C/svg%3E");
+}
+
+.bottom-black-header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 9px 17px 15px;
+}
+.black-bottom-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-family: AvenirNextPForBBG, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.black-bottom-right-button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid var(--navi-secondary-color, #fff);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: AvenirNextPForBBG, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 15px;
+  padding: 7px 14px;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.black-bottom-right-button:hover {
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.black-bottom-right-sign-in {
+  padding-left: 0;
+  padding-right: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.black-bottom-right-sign-in:hover {
+  opacity: 0.7;
+}
+
+.black-bottom-right-middle {
+  background-color: #1c1c1c;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: AvenirNextPForBBG, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.black-bottom-right-middle::after {
+  display: inline-block;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15'%3E%3Cpath d='M0,2.5l7.5,10l7.5-10H0z' fill='%23fff'/%3E%3C/svg%3E");
+  opacity: 0.7;
+  height: 9px;
+  width: 9px;
+  font-size: 9px;
+  left: 6px;
+  top: 1px;
+  position: relative;
+}
+.black-bottom-right-middle:after {
+  opacity: 1;
+}
+.black-bottom-right-middle:hover:after {
+  opacity: 0.7;
+}
+.navi-bar-button-search .nav-bar-search-icon {
+  -webkit-mask: url(https://assets.bwbx.io/s3/navi/images/search_white-25886d2f4b.svg)
+    no-repeat center;
+  mask: url(https://assets.bwbx.io/s3/navi/images/search_white-25886d2f4b.svg)
+    no-repeat center;
+  height: 16px;
+  width: 16px;
+}
+.navi-bar-button-search {
+  border: 1px solid #fff;
+  border: 1px solid var(--navi-secondary-color, #fff);
+  border-radius: 4px;
+  padding: 6px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 15px;
+}
+.nav-bar-search-icon {
+  background-color: white;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.main-body-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: outset;
+}
+
+.nav-bar-body ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+
+.second-li li {
+  padding: 10px;
+  list-style-type: none;
+}
