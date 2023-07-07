@@ -434,15 +434,20 @@ body {
 /* ------------------------------------------------------------------------ */
 
 .main-body-div {
-  display: flex;
+  display: block;
+  box-sizing: border-box;
   flex-direction: column;
+  width: 50vw;
   align-items: center;
+  align-content: center;
   border-bottom: outset;
   border: 1px solid #999;
   border: 1px solid var(--navi-boundary-color, #999);
   border-top: 0;
-  margin-left: 650px;
-  margin-right: 650px;
+  margin-left: 25%;
+  margin-right: 15%;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .nav-bar-body {
@@ -469,29 +474,61 @@ body {
   padding: 8px;
 }
 
-.nav-bar-stock-prices-ul {
+/* ------------------------------------------------------------------------ */
+
+.stock-prices * {
+  margin: 0;
+}
+
+.stock-prices {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  list-style-type: none;
-  align-items: center;
   margin: 0;
   padding: 0;
   font-family: BWHaasGroteskWeb, BWHaasGrotesk-55Roman-Web, sans-serif;
 }
-
-.nav-bar-stock-prices-ul li {
+.stock-prices div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  font-family: BWHaasGroteskWeb, BWHaasGrotesk-55Roman-Web, sans-serif;
   padding: 8px;
+  align-items: center;
 }
-.first--bar-stock-prices-ul::after {
+
+.stock-prices-down div {
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 0 solid transparent;
   display: inline-block;
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15'%3E%3Cpath d='M0,2.5l7.5,10l7.5-10H0z' fill='%23fff'/%3E%3C/svg%3E");
-  opacity: 0.7;
-  height: 9px;
-  width: 9px;
-  font-size: 9px;
-  left: 6px;
-  top: 1px;
-  position: relative;
-  background-color: #1c1c1c;
+  padding: 0;
+  rotate: 180deg;
+  border-bottom-color: red;
+  margin: 0.5ch;
+}
+.stock-prices-up div {
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 0 solid transparent;
+  display: inline-block;
+  padding: 0;
+  border-bottom-color: green;
+  margin: 0.5ch;
+}
+.stock-prices-stock-name {
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 14px;
+  line-height: 11.5px;
+  font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
+  padding: 0.625rem 0.875rem;
 }
