@@ -574,3 +574,40 @@ body {
 }
 
 /* ------------------------------------------------------------------------ */
+
+.content-body-div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+  gap: 1rem;
+}
+.main-body-top {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.main-body-left {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.main-body-right {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.main-body-center1 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.main-body-center2 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.main-body-center3 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
