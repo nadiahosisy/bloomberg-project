@@ -1051,12 +1051,13 @@ body {
   display: flex;
   flex-direction: row;
   margin-bottom: 70px;
+  gap: 30px;
 }
 .main-body-center3-second-row {
   display: flex;
   flex-direction: row;
+  gap: 30px;
 }
-
 .main-body-center3-first-row-c .main-body-center3-second-row-c {
   display: flex;
   flex-direction: column;
@@ -1080,4 +1081,8 @@ body {
 }
 .main-body-center3-second-row-c a:hover {
   text-decoration: underline;
+}
+.main-body-center3-first-row {
+}
+.main-body-center3-center-top {
 }
