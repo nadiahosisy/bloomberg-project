@@ -748,6 +748,9 @@ body {
   text-decoration: none;
   line-height: 18px;
 }
+.main-body-left-div-3 {
+  border-bottom: 0px;
+}
 .anchor-div-main-body:hover {
   text-decoration: underline;
 }
@@ -773,7 +776,6 @@ body {
   padding: 8px;
   margin-top: 0;
   margin-bottom: 0;
-
   border-bottom: dotted 1px;
 }
 .anchor-main-body-right {
@@ -787,6 +789,7 @@ body {
 .anchor-main-body-right:hover {
   text-decoration: underline;
 }
+
 .right-div {
   display: flex;
   flex-direction: column;
@@ -806,5 +809,5 @@ body {
   color: #000;
   font-weight: 800;
   font-size: 20px;
-  line-height: 18px;
+  line-height: 20px;
 }
