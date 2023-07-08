@@ -778,6 +778,15 @@ body {
   margin-bottom: 0;
   border-bottom: dotted 1px;
 }
+.main-body-right-opinion {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 20px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  padding: 11px;
+}
+
 .anchor-main-body-right {
   color: #000;
   font-weight: 900;
