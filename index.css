@@ -695,7 +695,7 @@ body {
 .main-body-center3 {
   grid-column-start: 2;
   grid-column-end: 5;
-  background-color: green;
+  background-color: rgb(189, 237, 189);
 }
 
 /* ---------------------------------------------------------------- */
@@ -1032,4 +1032,29 @@ body {
 }
 .main-body-center1-center3-button:hover {
   text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.main-body-center3 {
+  display: flex;
+  flex-direction: column;
+}
+.main-body-center3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-body-center3-first-row {
+  display: flex;
+  flex-direction: row;
+}
+.main-body-center3-second-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-body-center3-first-row-c .main-body-center3-second-row-c {
+  display: flex;
+  flex-direction: column;
 }
