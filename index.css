@@ -578,7 +578,7 @@ body {
 .content-body-div {
   max-width: 1300px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 350px;
   grid-template-rows: 100px 200px 1fr 1fr 1fr;
   gap: 1rem;
   grid-template-areas:
@@ -784,7 +784,7 @@ body {
   line-height: 20px;
   border-top: solid 1px;
   border-bottom: solid 1px;
-  padding: 11px;
+  padding: 8px;
 }
 
 .anchor-main-body-right {
