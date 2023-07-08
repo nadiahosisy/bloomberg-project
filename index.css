@@ -273,9 +273,6 @@ body {
 .top-black-header {
   width: 1200px;
   margin: 0 auto;
-  position: sticky;
-  top: 0;
-  z-index: 9999;
 }
 
 .top-black-header a {
@@ -339,9 +336,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding: 20px 9px 17px 15px;
-  position: sticky;
-  top: 0;
-  z-index: 9999;
 }
 .black-bottom-right {
   display: flex;
