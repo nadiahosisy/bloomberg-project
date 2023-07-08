@@ -734,7 +734,8 @@ body {
   padding: 10px;
 }
 .anchor-div-main-body-top {
-  color: #070606;
+  font-weight: 100;
+  color: #080606;
 }
 .anchor-div-main-body {
   font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
@@ -750,6 +751,12 @@ body {
 .anchor-div-main-body:hover {
   text-decoration: underline;
 }
+.span-div-main {
+  font-size: large;
+  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+}
 
 /*-------------------------------------------------*/
 
@@ -759,14 +766,15 @@ body {
   padding: 10px;
 }
 
-.main-body-right-opinion {
-  border-bottom-width: 10px;
-  font-size: 28px;
-  font-weight: 700;
-  padding: 0;
-  margin: 0;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
+.more-opinion-right-div-main {
+  border-bottom-width: 20px;
+  font-size: 13px;
+  color: #000;
+  padding: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  border-bottom: dotted 1px;
 }
 .anchor-main-body-right {
   color: #000;
@@ -789,9 +797,8 @@ body {
   color: #0068ff;
   display: block;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 21px;
   line-height: 1.07;
   margin-bottom: 4px;
 }
-.more-opinion-right-div-main;
