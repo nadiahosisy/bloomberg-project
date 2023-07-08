@@ -448,6 +448,67 @@ body {
   margin: 5px;
   margin-bottom: 6px;
 }
+.nav-bar-body-ul-left-more-li::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 10px;
+  margin-top: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px, 0 6px 0 1px, 0 -6px 0 1px;
+  background-color: var(--navi-menu-secondary-color, #000);
+}
+
+.stock-prices-buttons-div {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+
+.stock-prices-button-left::before {
+  border-left: 1px solid gray;
+  transform: rotate(-45deg);
+  border-top: 1px solid gray;
+  transition: border 0.3s;
+  content: "";
+  display: block;
+  height: 10px;
+  transform-origin: 50% 25%;
+  width: 10px;
+}
+.stock-prices-button-left {
+  margin-right: 20px;
+  opacity: 0.5;
+  cursor: none;
+  cursor: not-allowed;
+  pointer-events: none;
+  width: 23px;
+  height: 23px;
+}
+
+.stock-prices-button-right {
+  width: 23px;
+  height: 23px;
+}
+
+.stock-prices-button-right::before {
+  border-right: 1px solid black;
+  transform: rotate(45deg);
+  border-top: 1px solid black;
+  content: "";
+  display: block;
+  height: 10px;
+  transform-origin: 50% 25%;
+  width: 10px;
+}
+.stock-prices-button-right:hover {
+  background-color: #e6dbdb;
+  border-radius: 3px;
+  width: 23px;
+  height: 23px;
+}
+
 .main-body-div {
   display: flex;
   flex-direction: column;
@@ -488,11 +549,11 @@ body {
 
 .nav-bar-body-ul li {
   padding: 8px;
+  text-shadow: none;
 }
 
 .nav-bar-body-ul li:hover {
-  font-weight: 800;
-  color: #000;
+  text-shadow: 0.9px 0.1px 0.1px rgba(0, 0, 0, 1);
 }
 
 /* ------------------------------------------------------------------------ */
@@ -601,7 +662,6 @@ body {
 .main-body-top {
   grid-column-start: 1;
   grid-column-end: 6;
-  background-color: gold;
   display: flex;
   grid-area: main-body-top;
 }
@@ -640,10 +700,21 @@ body {
 
 /* ---------------------------------------------------------------- */
 
+.main-body-top-img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.main-body-top-img img {
+  width: auto;
+  height: 100%;
+}
+
 .main-body-top-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 .main-body-top-content a {
   color: black;
@@ -654,20 +725,31 @@ body {
   text-decoration: underline;
 }
 
-.main-body-top-content-top h1 {
-  font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
-  font-size: 40px;
-  font-weight: 600;
+.main-body-top-content-top {
+  width: 97%;
+  margin-top: 20px;
 }
 
-.main-body-top-img {
-  margin: 10px;
+.main-body-top-content-top-headline {
+  font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 50px;
 }
 
 .main-body-top-content-bottom {
   display: flex;
   justify-content: center;
   border-bottom: solid 1px;
+  width: 97%;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  gap: 30px;
+}
+.main-body-top-content-bottom a {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* .main-body-top-content-bottom {
@@ -816,6 +898,7 @@ body {
   margin: 6px;
   margin-left: 0;
 }
+
 .right-div-Bloomberg-Middle-East {
   color: #000;
   font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
