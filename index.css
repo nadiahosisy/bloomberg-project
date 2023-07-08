@@ -842,26 +842,49 @@ body {
 }
 
 .input-right-div {
-  width: 190px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 160px;
   height: 10px;
-  padding-top: 20px;
-  margin-top: 10px;
+  margin-top: 0px;
   border-radius: 5px;
   border: solid 3px;
+  font-size: 18px;
 }
 .label-right-div-button {
+  background-color: white;
   font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
-  height: auto;
-  letter-spacing: 0.28px;
-  max-width: 335px;
-  min-height: 46px;
-  min-width: 135px;
+  width: 130px;
   font-size: 14px;
-  line-height: 21px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  font-size: 20px;
+  border: solid 2px;
+}
+.right-input-button-div {
+  display: flex;
+  color: #000;
+  font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif !important;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
   line-height: 1;
-
-  letter-spacing: 0.28px;
-  max-width: 335px;
-  min-height: 46px;
-  min-width: 135px;
+}
+.checkbox-right-div-button {
+  margin-top: 10px;
+  font-size: 17px;
+}
+.my-checkbox {
+  width: 18px;
+  height: 18px;
+  align-items: center;
+  align-content: center;
+}
+.right-div-checkbox-paragraph a {
+  text-decoration: underline;
+  color: #000;
+  font-size: 13px;
 }
