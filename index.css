@@ -697,7 +697,7 @@ body {
 }
 .main-body-left-master-div {
   margin-left: 15px;
-  margin-right: 80px;
+  margin-right: 40px;
 }
 .main-body-left-h3-1 {
   font-size: 30px;
@@ -738,13 +738,14 @@ body {
 }
 .anchor-div-main-body {
   font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   cursor: pointer;
-  font-size: 22px;
-  margin-top: 10px;
-  padding: 10px 0px 12px;
-  color: #000;
+  font-size: 20px;
+  margin-top: 3px;
+  padding: 3px 0px 12px;
+  color: black;
   text-decoration: none;
+  line-height: 18px;
 }
 .anchor-div-main-body:hover {
   text-decoration: underline;
