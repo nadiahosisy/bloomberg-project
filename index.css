@@ -1021,7 +1021,7 @@ body {
 .main-body-center1-button-anchors:hover {
   text-decoration: underline;
 }
-.main-body-center3-button {
+.main-body-center1-center3-button {
   text-decoration: none;
   color: #000;
   font-size: 13px;
@@ -1030,6 +1030,6 @@ body {
   border-top: dotted 1px;
   border-bottom: dotted 1px;
 }
-.main-body-center3-button:hover {
+.main-body-center1-center3-button:hover {
   text-decoration: underline;
 }
