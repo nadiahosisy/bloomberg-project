@@ -982,6 +982,54 @@ body {
 .main-body-center1-right {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  align-content: center;
+  align-items: start;
+  align-content: start;
+  margin-left: 20px;
+}
+.main-body-center1-right-paragraph {
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 14px;
+}
+.main-body-center1-right-up-anchor {
+  font-size: 27px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  line-height: 1;
+  border-width: bold;
+  cursor: pointer;
+}
+.main-body-center1-right-up-anchor:hover {
+  text-decoration: underline;
+}
+.main-body-center1-button-anchors {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  padding: 0;
+  margin: 0px;
+  border-top: dotted 1px;
+}
+.main-body-center1-button-anchors-all {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+  padding: 7px;
+  text-decoration: none;
+}
+.main-body-center1-button-anchors:hover {
+  text-decoration: underline;
+}
+.main-body-center3-button {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  padding: 0;
+  margin: 0px;
+  border-top: dotted 1px;
+  border-bottom: dotted 1px;
+}
+.main-body-center3-button:hover {
+  text-decoration: underline;
 }
